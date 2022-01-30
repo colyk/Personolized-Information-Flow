@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "personolized-information-flow"
+version = "0.1.0"
+description = ""
+authors = ["Mykola Yurchenko <colykxer@gmail.com>"]
+license = "MIT license"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+flake8 = "^4.0.1"
+mypy = "^0.931"
+coverage = "^6.3"
+black = {version = "^21.12b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
